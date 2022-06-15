@@ -5,8 +5,10 @@
         <title>
             Practice lessons
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/shared.css">
     </head>
     <body>
         <!--Header section-->
@@ -20,25 +22,28 @@
                 <nav class="main-navigation">
                     <ul class="main-navigation__items">
                         <li class="main-navigation__item active">
-                            <a href="#">Asosiy</a>
+                            <a href="./practice.html">Asosiy</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a href="#">Men haqimda</a>
+                            <a href="#about me">Men haqimda</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a href="#">Xizmatlar</a>
+                            <a href="#services">Xizmatlar</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a href="#">Mijozlar</a>
+                            <a href="#clients">Mijozlar</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a href="#">Portfolio</a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a href="#">Blog</a>
+                            <a href="#blog">Blog</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a href="#">Sheriklar</a>
+                            <a href="#partners">Sheriklar</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="./contact.html">Bog'lanish</a>
                         </li>
                     </ul>
                 </nav>
@@ -250,7 +255,7 @@
                     </li>
                 </ul>
                 <div class="container">
-                    <div class="portfolio-items portfolio-item-1">
+                    <div class="portfolio-items">
                         <div class="portfolio-item">
                             <img src="./images/p1.jpg" alt="Portfolio image" class="portfolio-item__image">
                             <div class="portfolio-item__overlay"></div>
@@ -263,36 +268,33 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="portfolio-item portfolio-item-2">
-                        <img src="./images/p4.jpg" alt="Portfolio image 2" class="portfolio-item__image">
-                        <div class="portfolio-item__overlay"></div>
-                        <div class="portfolio-item__info">
-                            <h4>
-                                <a href="#">Portfolio</a>
-                            </h4>
-                            <p>
-                                Ishim haqida
-                            </p>
+                        <div class="portfolio-item portfolio-item-2">
+                            <img src="./images/p4.jpg" alt="Portfolio image" class="portfolio-item__image">
+                            <div class="portfolio-item__overlay"></div>
+                            <div class="portfolio-item__info">
+                                <h4>
+                                    <a href="#">Portfolio</a>
+                                </h4>
+                                <p>
+                                    Ishim haqida
+                                </p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item portfolio-item-3">
+                            <img src="./images/p3.jpg" alt="Portfolio image" class="portfolio-item__image">
+                            <div class="portfolio-item__overlay"></div>
+                            <div class="portfolio-item__info">
+                                <h4>
+                                    <a href="#">Portfolio</a>
+                                </h4>
+                                <p>
+                                    Ishim haqida
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="portfolio-item portfolio-item-3">
-                        <img src="./images/p3.jpg" alt="Portfolio image 3" class="portfolio-item__image">
-                        <div class="portfolio-item__overlay"></div>
-                        <div class="portfolio-item__info">
-                            <h4>
-                                <a href="#">Portfolio</a>
-                            </h4>
-                            <p>
-                                Ishim haqida
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                
             </section>
         </div>
         <!--/Portfolio section-->
@@ -303,6 +305,7 @@
             <section id="blog" class="blog">
                 <div class="section-subtitle">
                     Mening blogim
+                    <span class="blur-line"></span>
                 </div>
                 <div class="section-title">
                     Oxirgi maqolalarim
@@ -315,9 +318,11 @@
                         <div class="blog-item__info">
                             <div class="blog-item__main-info">
                                 <span class="blog-item__author">
+                                    <i class="fa-solid fa-user"></i>
                                     Admin post
                                 </span>
                                 <span class="blog-item__date">
+                                    <i class="fa-solid fa-calendar-days"></i>
                                     Feb 5, 2022
                                 </span>
                             </div>
@@ -327,7 +332,59 @@
                             <p class="blog-item__description">
                                 Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.
                             </p>
-                            <a class="blog-item__learn-mopre">
+                            <a href="#" class="blog-item__learn-more">
+                                Ko'proq o'qish
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-item__image">
+                            <img src="./images/b2.jpg" alt="blogimg">
+                        </div>
+                        <div class="blog-item__info">
+                            <div class="blog-item__main-info">
+                                <span class="blog-item__author">
+                                    <i class="fa-solid fa-user"></i>
+                                    Admin post
+                                </span>
+                                <span class="blog-item__date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Feb 5, 2022
+                                </span>
+                            </div>
+                            <h5 class="blog-item__title">
+                                Mening maqolam...
+                            </h5>
+                            <p class="blog-item__description">
+                                Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.
+                            </p>
+                            <a href="#" class="blog-item__learn-more">
+                                Ko'proq o'qish
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-item__image">
+                            <img src="./images/b3.jpg" alt="blogimg">
+                        </div>
+                        <div class="blog-item__info">
+                            <div class="blog-item__main-info">
+                                <span class="blog-item__author">
+                                    <i class="fa-solid fa-user"></i>
+                                    Admin post
+                                </span>
+                                <span class="blog-item__date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Feb 5, 2022
+                                </span>
+                            </div>
+                            <h5 class="blog-item__title">
+                                Mening maqolam...
+                            </h5>
+                            <p class="blog-item__description">
+                                Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.
+                            </p>
+                            <a href="#" class="blog-item__learn-more">
                                 Ko'proq o'qish
                             </a>
                         </div>
@@ -339,39 +396,78 @@
 
 
         <!--Partners section-->
-        <section id="partners">
-            <h1>Sheriklarim</h1>
-        </section>
+        <div class="container">
+            <section id="partners" class="partners">
+                <div class="partner">
+                    <img src="./images/logo1.png">
+                </div>
+                <div class="partner">
+                    <img src="./images/logo2.png">
+                </div>
+                <div class="partner">
+                    <img src="./images/logo3.png">
+                </div>
+                <div class="partner">
+                    <img src="./images/logo4.png">
+                </div>
+                <div class="partner">
+                    <img src="./images/logo5.png">
+                </div>
+            </section>
+        </div>
         <!--/Partners section-->
 
 
         <!--Footer section-->
-        <footer>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Asosiy</a>
-                    </li>
-                    <li>
-                        <a href="#">Men haqimda</a>
-                    </li>
-                    <li>
-                        <a href="#">Xizmatlar</a>
-                    </li>
-                    <li>
-                        <a href="#">Mijozlar</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Sheriklar</a>
-                    </li>
-                </ul>
-            </nav>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__brand">
+                    <img src="./images/ftlogo.png" alt="ftlogo">
+                </div>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-items">
+                        <li class="footer__navigation-item">
+                            <a href="#">Asosiy</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">Men haqimda</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">Xizmatlar</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">Mijozlar</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">Sheriklar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <ul class="footer__socials">
+                <li class="footer__social">
+                    <a href="#">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="footer__text">Copyright ©2022 All rights reserved | This template is made with  by Colorlib</p>
         </footer>
         <!--/Footer-->
 
